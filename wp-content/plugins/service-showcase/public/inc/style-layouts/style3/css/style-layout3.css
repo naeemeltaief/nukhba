@@ -1,0 +1,114 @@
+.ServiceShowcase{
+    padding-bottom: 20px;
+    text-align: center;
+    position: relative;
+}
+.ServiceShowcase:before{
+    content: "";
+    width: 100%;
+    height: 2px;
+    background: #1d1a3f;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: scale(0);
+    transition: all 0.5s ease 0s;
+}
+.ServiceShowcase:hover:before{ transform: scale(1); }
+.ServiceShowcase .wlsbp-style3-service-title{
+    font-size: 22px;
+    font-weight: 700;
+    color: #1d1a3f;
+    text-transform: uppercase;
+    margin: 0 0 5px 0;
+}
+.ServiceShowcase .wlsbp-style3-service-icon{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #1d1a3f;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    margin: 50px 0;
+    position: relative;
+}
+.ServiceShowcase .wlsbp-style3-service-icon:before,
+.ServiceShowcase .wlsbp-style3-service-icon:after{
+    content: "";
+    width: 3px;
+    height: 40px;
+    background: #1d1a3f;
+    margin: 0 auto;
+    position: absolute;
+    top: -40px;
+    left: 0;
+    right: 0;
+}
+.ServiceShowcase .wlsbp-style3-service-icon:after{
+    top: auto;
+    bottom: -40px;
+}
+.ServiceShowcase .wlsbp-style3-service-icon span{
+    display: block;
+    font-size: 50px;
+    color: #fff;
+    line-height: 130px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    z-index: 999 ;
+}
+.ServiceShowcase .wlsbp-style3-service-icon span:before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #fa5f69;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all 0.5s ease 0s;
+}
+.ServiceShowcase:hover .wlsbp-style3-service-icon span:before{ transform: rotateY(180deg); }
+.ServiceShowcase .wlsbp-style3-service-desc{
+    font-size: 15px;
+    color: #505050;
+    line-height: 27px;
+    margin: 0;
+    margin-bottom: 12px;
+}
+.ServiceShowcase.blue .wlsbp-style3-service-icon span:before{ background: #0babc7; }
+.ServiceShowcase.yellow .wlsbp-style3-service-icon span:before{ background: #f5b43b; }
+.ServiceShowcase.green .wlsbp-style3-service-icon span:before{ background: #2e9749; }
+@media only screen and (max-width:990px){
+    .ServiceShowcase{ margin-bottom: 30px; }
+}
+h2.wlsbp-ServiceShowcase-title {
+    color: #777;
+    text-align: center !important;
+    margin-bottom: 20px !important;
+    font-size: 28px !important;
+}
+.wlsbp.col-md-3.col-sm-6 {
+    margin-bottom: 15px;
+}
+a.wlsbp-style3-service-readmore{
+    padding: 1rem 1.4rem;
+}
+.ServiceShowcase .wlsbp-style3-service-readmore{
+    display: inline-block;
+    font-size: 13px;
+    color: #64676b;
+   /* text-transform: capitalize;*/
+    padding: 5px 10px;
+    border-top: 1px solid #64676b;
+    transition: all 0.5s ease 0s;
+    text-decoration: none;
+}
+.sbp_grid{
+    margin-bottom: 15px;
+}

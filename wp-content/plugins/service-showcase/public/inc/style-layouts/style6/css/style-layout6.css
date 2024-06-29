@@ -1,0 +1,82 @@
+.sbp_grid{
+    margin-bottom: 15px;
+}
+.ServiceShowcase {
+    /*font-family: 'Titillium Web', sans-serif;*/
+    text-align: center;
+    padding: 20px;
+    margin: 40px auto 0;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 4px;
+    background: #fff;
+    position: relative;
+}
+.ServiceShowcase .wlsbp-ServiceShowcase-title{
+    font-family: sans-serif;
+}
+.ServiceShowcase :before{
+    background-color: var(--color_1);
+    height: 100px;
+    width: 100%;
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    top: 20px;
+}
+.ServiceShowcase .wlsbp-style6-service-icon{
+    color: var(--color_1);
+    font-size: 50px;
+    line-height: 100px;
+    width: 100px;
+    height: 100px;
+    margin: 20px auto 35px;
+    position: relative;
+    z-index: 1;
+}
+.ServiceShowcase .wlsbp-style6-service-icon:before{
+    content: '';
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    border: 5px solid var(--color_1);
+    box-shadow: 0 0 10px #555;
+    transform: translateX(-50%) translateY(-50%) rotate(45deg);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: -1;
+}
+.ServiceShowcase .wlsbp-style6-service-icon i.fa{ transition: all 0.3s !important; }
+.ServiceShowcase:hover .wlsbp-style6-service-icon i.fa{ transform: rotateY(360deg) !important; }
+.ServiceShowcase .wlsbp-ServiceShowcase-title{
+    color: var(--color_1);
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 0 0 10px;
+    display: block;
+}
+.ServiceShowcase .wlsbp-style6-service-desc{
+    font-size: 15px;
+    line-height: 27px;
+    margin: 0;
+}
+
+
+.ServiceShowcase.purple:before{ background-color: var(--color_2); }
+.ServiceShowcase.purple .service-icon{ color: var(--color_2); }
+.ServiceShowcase.purple .service-icon:before{ border-color: var(--color_2); }
+.ServiceShowcase.purple .wlsbp-style6-service-title{ color: var(--color_2); }
+.ServiceShowcase.green:before{ background-color: var(--color_3); }
+.ServiceShowcase.green .service-icon{ color: var(--color_3); }
+.ServiceShowcase.green .service-icon:before{ border-color: var(--color_3); }
+.ServiceShowcase.green .wlsbp-style6-service-title{ color: var(--color_3); }
+.ServiceShowcase.magenta:before{ background-color: var(--color_4); }
+.ServiceShowcase.magenta .service-icon{ color: var(--color_4); }
+.ServiceShowcase.magenta .service-icon:before{ border-color: var(--color_4); }
+.ServiceShowcase.magenta .wlsbp-style6-service-title{ color: var(--color_4); }
+@media only screen and (max-width:990px){
+    .ServiceShowcase{ margin: 0 0 30px; }
+}

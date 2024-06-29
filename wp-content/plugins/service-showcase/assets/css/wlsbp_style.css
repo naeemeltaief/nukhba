@@ -1,0 +1,179 @@
+
+/*custom css for adminb panel*/
+
+.col-md-6.wlsbp_ServiceShowcase_inner {
+    width: 45%;
+    background-color: lightgrey;
+    padding: 20px;
+}
+.wlsbp_ServiceShowcase_inner input.form-control, .wlsbp_ServiceShowcase_inner textarea.form-control {
+    width: 100%;
+}
+#wlsbp_ServiceShowcase_rows {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.wlsbp_ServiceShowcase_inner {
+
+    background-color: #fff;
+    box-shadow: 2px 3px 2px #ddd;
+    border: 1px solid #c9c7c7;
+    padding: 15px;
+    border-radius: 4px;
+}
+button#wlsbp_ServiceShowcase_row_add_more {
+    float: left;
+    height: 40px;
+    padding: 0;
+    text-align: center;
+    font-size: 20px;
+    width: 20%;
+    text-transform: uppercase;
+    margin: 0;
+    line-height: 2;
+    display: inline-block;
+}
+button#wlsbp_ServiceShowcase_row_add_more  i.fas.fa-plus {
+    background-color: #007bff;
+    padding: 10px 14px;
+    color: #fff;
+    float: left;
+}
+.col-sm-12.btn-div {
+    text-align: center;
+}
+
+.add_new_sbp:hover{
+    color:#ffffff;
+}
+
+.add_new_sbp:hover p{
+    color:#ffffff;
+}
+.add_new_sbp:hover .dashicons{
+     background: none repeat scroll 0 0 #ffffff;
+     color:#0074a2;
+}
+.add_new_sbp .dashicons{
+     background: none repeat scroll 0 0 rgba(153, 153, 153, 0.1);
+    border-radius: 50%;
+    color: #999;
+    content: "?";
+    display: inline-block;
+    font: 400 74px/115px ;
+    height: 100px;
+
+    font-size:80px;
+    padding: 0;
+   line-height:110px;
+    text-align: center;
+    text-indent: -4px;
+    text-shadow: none;
+    top: 30%;
+    vertical-align: middle;
+    width: 100px;
+    z-index: 4;
+
+}
+.wlsbp_ServiceShowcase_remove_label a>i{
+    color: #000;
+}
+.wlsbp .btn-group-sm>.btn, .wlsbp .btn-sm {
+    float: right;
+}
+a#add_new_sbp {
+    padding: 15px;
+    background-color: #007cba;
+    margin: 10px;
+    border-radius: 4%;
+    color: #fff;
+    text-decoration: none;
+    float: left;
+    font-size: 16px;
+}
+a#sbp_delete_all {
+    padding: 15px;
+    background-color: #878f96;
+    margin: 10px;
+    border-radius: 4%;
+    color: #000;
+    text-decoration: none;
+    float: right;
+    font-size: 16px;
+}
+.col-md-4.wlsbp_ServiceShowcase {
+    margin-bottom: 15px;
+}
+.iconpicker-container .input-group-addon {
+
+  color: #fff !important;
+  text-align: center;
+  background-color: #007cba !important;
+  border: 1px solid #007bff !important;
+
+}
+.wlsbp .fade:not(.show) {
+    opacity: inherit;
+}
+span.wlsbp-icon-btn.input-group-addon {
+    width: 35px;
+    padding-top: 5px;
+    font-size: 16px;
+}
+.iconpicker .iconpicker-items {
+    padding: 12px 0px 0px 5px;
+}
+.wlsbp-setting-col {
+    padding: .22rem;
+}
+.wlsbp_setting_key {
+    font-weight: 600;
+}
+.input-group {
+    flex-wrap: inherit;
+}
+.font-select > a > span {
+    line-height: 1.4 !important;
+}
+.wlsbp-general-setting {
+    padding: 5px 20px;
+}
+.wlsbp-setting-style {
+    padding: 5px 20px;
+}
+/*.wlsbp-setting-helper {
+    display: contents;
+}*/
+.wlsbp-setting-style .row{
+margin-bottom: 5px
+}
+.fsize {
+    padding: 8px 12px 5px 12px;
+    background: #eee;
+    font-size: 14px;
+    width: 60px;
+    height: 33px;
+    display: inline-block;
+}
+
+
+
+.service_style1 h2.wlsbp-ServiceShowcase-title {
+    text-align: center !important;margin-bottom: 20px !important;font-size: 28px !important;
+}
+
+:radio + label {
+  border-color: #ddd;
+}
+
+:radio + label:before {
+  content: "✓";
+  background-color: grey;
+  transform: scale(1);
+}
+
+:radio + label img {
+  transform: scale(0.9);
+  box-shadow: 0 0 5px #333;
+  z-index: -1;
+}

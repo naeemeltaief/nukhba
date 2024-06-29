@@ -1,0 +1,88 @@
+.ServiceShowcase{
+    border: 1px solid #dfdfdf;
+    border-radius: 0px 30px;
+    padding: 25px 10px;
+    text-align: center;
+    transition: all 0.5s ease 0s;
+}
+.ServiceShowcase:hover{
+    background-color: #40d4f5;
+    border-color: #40d4f5;
+}
+.ServiceShowcase .wlsbp-style1-service-icon{
+    width: 60px;
+    height: 60px;
+    background-color: #40d4f5;
+    border-radius: 0 20px;
+    margin: 0 auto 25px;
+    transition: all 0.5s ease 0s;
+}
+
+.ServiceShowcase .wlsbp-style1-service-icon i{
+    font-size: 26px;
+    color: #fff;
+    line-height: 60px;
+    transition: all 0.5s ease 0s;
+}
+.ServiceShowcase:hover .wlsbp-style1-service-icon i{
+    color: #fff;
+}
+.ServiceShowcase .wlsbp-style1-service-title{
+    font-size: 16px;
+    font-weight: bold;
+    color: #5e5e5e;
+    margin-bottom: 20px;
+    /*text-transform: capitalize;*/
+    transition: all 0.5s ease 0s;
+}
+.ServiceShowcase:hover .wlsbp-style1-service-title{
+    color: #fff;
+}
+.ServiceShowcase .wlsbp-style1-service-title:after{
+    content: "";
+    width: 25%;
+    border-top: 1px solid #5e5e5e;
+    display: block;
+    margin: 15px auto;
+    transition: all 0.8s ease 0s;
+}
+.ServiceShowcase:hover .wlsbp-style1-service-title:after{
+    width: 80%;
+    border-color: #fff;
+}
+.ServiceShowcase .wlsbp-style1-service-desc{
+    font-size: 14px;
+    color: #888;
+    line-height: 23px;
+    margin-bottom: 30px;
+    transition: all 0.5s ease 0s;
+}
+.ServiceShowcase:hover .wlsbp-style1-service-desc{
+    color: #fff;
+}
+.ServiceShowcase .wlsbp-style1-service-readmore{
+    font-size: 14px;
+    color: #444;
+    background-color: #dcdcdc;
+    border-radius: 0 20px;
+    padding: 10px 20px;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.5s ease 0s;
+}
+.ServiceShowcase .wlsbp-style1-service-readmore:hover{
+    background: #fff  !important;
+}
+@media only screen and (max-width: 990px){
+    .ServiceShowcase{ margin-bottom: 30px; }
+}
+h2.wlsbp-ServiceShowcase-title {
+    color: #777;
+    text-align: center !important;
+    margin-bottom: 20px !important;
+    font-size: 28px !important;
+}
+.sbp_grid{
+    margin-bottom: 15px;
+}

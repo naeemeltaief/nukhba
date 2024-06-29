@@ -1,0 +1,93 @@
+.ServiceShowcase{
+    padding: 0 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    margin: 50px 0;
+    position: relative;
+    transition: all 0.3s linear 0s;
+}
+.ServiceShowcase .wlsbp-style4-service-icon{
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    border-radius: 5px;
+    background: #4ca8e8;
+    font-size: 30px;
+    color: #fff;
+    margin: -45px 0 30px;
+    position: relative;
+    transition: all 0.3s linear 0s;
+}
+.ServiceShowcase:hover .wlsbp-style4-service-icon{
+    background: #dcdcdc;
+    color: #4ca8e8;
+}
+.ServiceShowcase .wlsbp-style4-service-icon:after{
+    content: "";
+    border-top: 10px solid;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all 0.3s linear 0s;
+}
+.ServiceShowcase:hover .wlsbp-style4-service-icon:after{
+    border-top-color: #dcdcdc;
+}
+.ServiceShowcase .wlsbp-style4-service-title{
+    font-size: 16px;
+    color: #414141;
+    margin: 12px 0 12px 0;
+    transition: all 0.3s ease 0s;
+}
+.ServiceShowcase:hover .wlsbp-style4-service-title{
+    color: #4ca8e8;
+}
+.ServiceShowcase .wlsbp-style4-service-desc{
+    font-size: 16px;
+    color: #8e8e8e;
+    line-height: 25px;
+}
+.ServiceShowcase .wlsbp-style4-service-readmore{
+    display: inline-block;
+    padding: 1px 2px;
+    background: #fff;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    color: #414141;
+    position: relative;
+    bottom: -20px;
+    transition: margin-right 0.5s ease 0s, border-color 0.3s ease 0s;
+}
+.ServiceShowcase .wlsbp-style4-service-readmore span{
+    display: inline-block;
+    padding: 5px 18px;
+    background: #fff;
+    /* margin: 0 -35px -12px 0; */
+    position: relative;
+    /* left: 12px; */
+    transition: margin-right 0.5s ease 0s;
+}
+.ServiceShowcase:hover .wlsbp-style4-service-readmore span{
+    color: #4ca8e8;
+    margin-right: 0;
+}
+.ServiceShowcase .wlsbp-style4-service-readmore i{
+    display: inline-block;
+    padding: 11px 16px 8px 20px;
+    background: #4ca8e8;
+    color: #fff;
+}
+.ServiceShowcase:hover,
+.ServiceShowcase:hover .wlsbp-style4-service-readmore{
+    border-color: #4ca8e8;
+}
+@media only screen and (max-width:767px){
+    .ServiceShowcase{ margin-bottom: 80px; }
+}
+.sbp_grid{
+	margin-bottom: 15px;
+}
